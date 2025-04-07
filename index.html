@@ -46,15 +46,18 @@
         .section-two {
             background: #111;
             color: white;
+            display: flex;
+            flex-direction: column;
             justify-content: center;
-            align-items: center;
-            text-align: center;
+            align-items: flex-start;
+            padding: 2vh 5vw;
+            text-align: left;
         }
 
         .image-row {
             display: flex;
             gap: 2vw;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
             width: 100%;
         }
@@ -65,25 +68,35 @@
             object-fit: cover;
             border-radius: 12px;
         }
+
+        .independent-text {
+            color: white;
+            background-color: #111;
+            padding: 1vh 2vw;
+            width: 100%;
+            text-align: left;
+            font-size: 1.8vw;
+            margin-top: 1vh;
+        }
     </style>
 </head>
 <body>
     <section class="section section-one">
         <div class="container">ШТА ЈЕ МАТЕМАТИКА МАТЕМАТИКА ЈЕ ВРЕМЕНСКА СЕРИЈА БИТОВА МАТЕМАТИКА ЈЕ МЕРЕЊЕ МАТЕМАТИКА ЈЕ КОНТИНУУМ</div>
     </section>
-
     <section class="section section-two">
         <div class="image-row">
-            <img src="alas-2.png" alt="Alas">
+            <img src="alas-2.png" alt="Turing">
             <img src="turing.png" alt="Turing">
             <img src="brouwer.png" alt="Brouwer">
         </div>
-    <h3>СВАКОГ ПОСЛЕДЊЕГ ЧЕТВРТКА У РАДЕЦКОМ У ЗЕМУНУ 19ч </h3>
+
+      <div class="independent-text">МАТЕМАТИЧКО НА ТЕМУ ШТА ЈЕ МАТЕМАТИКА У РАДЕЦКОМ У ЗЕМУНУ (У БАШТИ)</div>
+	
+     <div class="independent-text">ПРВОГ И ТРЕЋЕГ ЧЕТВРТКА У МЕСЕЦУ</div> </div>
+
+   <div class="independent-text">АКО ИМАТЕ ДОКАЗ РИМАНОВЕ ХИПОТЕЗЕ НЕЋЕМО ГА ПРОВЕРАВАТИ НИЈЕ ТАЧАН</div> </div>
     </section>
-
-
-
-
 </body>
 </html>
 
